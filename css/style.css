@@ -1,0 +1,231 @@
+
+#bg{
+	position: absolute;
+	top:20px;
+	left:600px;
+	width:300px;
+	height:100px;
+	color:red;
+}
+#list li{
+	list-style: none;
+	text-align: center;
+	width: 300px;
+	height: 20px;
+	line-height:20px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap	;
+}
+
+
+
+
+/***   OSD弹框  start    ***/
+#msg_container, #msgT01_home_container, #msgT01_epg_container, #msgT01_playtv_container{
+	position: absolute;
+	border: 4px solid yellow;
+	background-color: #000011;
+	color: #ffffff;
+	text-align: center;
+	display: none;
+}
+.msg_container_home, .msg_container_tv, .msg_container_favor, #msgT01_home_container{
+	top: 123px;
+	left: 630px;
+	width: 513px;
+	height: 272px;
+}
+.msg_container_epg, #msgT01_epg_container{
+	top: 458px;
+	left: 176px;
+	width: 261px;
+	height: 132px;
+}
+.msg_container_playtv, #msgT01_playtv_container{
+	top: 168px;
+	left: 320px;
+	width: 640px;
+	height: 346px;
+}
+
+.msg_main_context_home, .msg_main_context_tv, .msg_main_context_favor{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	line-height: 30px;
+	text-align: left;
+	padding: 44px;
+	font-size: 24px;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 390px;
+}
+.msg_main_context_epg{
+	display: table-cell;
+	vertical-align: middle;
+	height: 100%;
+	line-height: 16px;
+	text-align: center;
+	padding-top: 15px;
+	font-size: 12px;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-break: break-all;
+	width: 280px;
+}
+.msg_main_context_playtv{
+	position: absolute;
+	top: 70px;
+	left: 40px;
+	width: 580px;
+	height: 220px;
+	vertical-align: middle;
+	line-height: 40px;
+	text-align: left;
+	padding-top: 20px;
+	padding-left: 0px;
+	font-size: 24px;
+	overflow: hidden;
+}
+#msg_btn{
+	position: absolute;
+}
+#msg_btn_ok, #msg_btn_cancel{
+	position: absolute;
+	width: 83px;
+	height: 33px;
+}
+#msg_btn_ok{
+	background: url("../images/msgBox/menu_6.png") center no-repeat;
+}
+#msg_btn_cancel{
+	background: url("../images/msgBox/back.png") center no-repeat;
+}
+
+.msg_btn_home, .msg_btn_tv, .msg_btn_favor{
+	top: 180px;
+	width: 600px;
+	height: 70px;
+}
+.msg_btn_ok_home, .msg_btn_ok_tv, .msg_btn_ok_favor{
+	top: 2px;
+	left: 150px;
+}
+.msg_btn_cancel_home, .msg_btn_cancel_tv, .msg_btn_cancel_favor{
+	top: 2px;
+	left: 300px;
+}
+
+.msg_btn_epg{
+	position: absolute;
+	top: 80px;
+	left: 10px;
+	width: 600px;
+	height: 70px;
+}
+.msg_btn_ok_epg{
+	top: 2px;
+	left: 10px;
+}
+.msg_btn_cancel_epg{
+	top: 2px;
+	left: 120px;
+}
+
+.msg_btn_playtv{
+	position: absolute;
+	top: 220px;
+	width: 600px;
+	height: 70px;
+}
+
+.msg_btn_ok_playtv{
+	left: 100px;
+}
+
+
+
+.msg_btn_cancel_playtv{
+	left: 350px;
+}
+/***   OSD  end    ***/
+
+
+/***   T01弹框  start   ****/
+#msgT01_home_context{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 24px;
+    text-align: left;
+    padding: 44px;
+    font-size: 14px;
+    overflow: hidden;
+    width: 395px;
+}
+#msgT01_epg_context{
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    line-height: 14px;
+    text-align: left;
+    padding-top: 5px;
+    padding-left: 10px;
+    font-size: 12px;
+    overflow: hidden;
+    width: 280px;
+}
+#msgT01_playtv_context{
+    position: absolute;
+    top: 50px;
+    left: 40px;
+    width: 580px;
+    height: 245px;
+    vertical-align: middle;
+    line-height: 30px;
+    text-align: left;
+    padding-top: 20px;
+    padding-left: 0px;
+    font-size: 20px;
+    overflow: hidden;
+}
+/***   T01弹框  end   ****/
+
+
+
+
+#msg_rightUp_container{
+	position: absolute;
+	border: 4px solid yellow;
+	background-color: #000011;
+	color: #ffffff;
+	width: 300px;
+	height: 80px;
+	display: none;
+}
+.msg_rightUp_container_home, .msg_rightUp_container_tv, .msg_rightUp_container_favor{
+	top: 135px;
+	left: 800px;
+}
+.msg_rightUp_container_epg{
+	top: 460px;
+	left: 135px;
+}
+.msg_rightUp_container_playtv{
+	top: 50px;
+	left: 900px;
+}
+#msg_rightUp_context{
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	width: 280px;
+	height: 70px;
+	line-height: 35px;
+	text-align: left;
+}
+
+
+
